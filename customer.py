@@ -92,4 +92,8 @@ print(sale_by_region)
 
 for region in sorted(sale_by_region):
     print(f"{region}: ${sale_by_region[region]:.2f}")
+
+#reflection questions
+#1. I would use .get when I want to avoid raising a KeyError, particularly if I didn't know if a key is in a list. I would use the bracked method if I new the key was in a list, wanted to add a key or update a key in the list.
+#2 It is similar to vlookup in excel, which can also be used to  look up values in a table. Dictionaries a better though because they are faster and take up less space than a table in excel.
     
